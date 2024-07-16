@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #28a745;
+    margin: 0;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+.card-suit {
+    position: absolute;
+    font-size: 2rem;
+}
+
+.card-suit.top {
+    top: 10px;
+    left: 10px;
+}
+
+.card-suit.bottom {
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.card-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
